@@ -1,0 +1,28 @@
+$font-size: 1rem;
+$button-background-color: rgb(255, 255, 255);
+$button-font-color: rgb(18, 84, 146);
+$text-font-color: rgb(84, 150, 211);
+
+body {
+    background-color: black;
+    color: white;
+}
+
+
+.hello-world-button {
+    font-size: $font-size;
+    padding: 1rem;
+    background: $button-background-color;
+    color: $button-font-color;
+    outline: none;
+
+    &:hover {
+        background: rgb(179, 179, 179);
+        cursor: pointer;
+    }
+}
+
+.hello-world-text {
+    color: $text-font-color;
+    font-weight: bold;
+}
